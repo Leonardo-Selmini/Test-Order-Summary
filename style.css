@@ -9,8 +9,7 @@
 
 body {
   width: 1440px;
-  background-image: url(img/pattern-background-desktop.svg);
-  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
   padding: 50px;
 }
 
@@ -25,7 +24,7 @@ body {
 }
 
 /* debug section */
-#container.debug {
+/*#container.debug {
   height: 720px;
   background-color: aquamarine;
 }
@@ -35,7 +34,7 @@ body {
   background-color: cadetblue;
 }
 
-/* .debug article {
+.debug article {
   height: 150px;
   background-color: cornflowerblue;
 }
@@ -43,12 +42,12 @@ body {
 .debug section {
   height: 100px;
   background-color: darkslateblue;
-} */
+}
 
 .debug #button-container {
   height: 150px;
   background-color: deeppink;
-}
+} */
 
 /* body container */
 #full-container {
@@ -72,6 +71,7 @@ main {
   padding: 10%;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  background-color: white;
 }
 
 /* main - article */
@@ -113,10 +113,31 @@ section img {
 section a {
   float: right;
   padding: 39.555px 25px;
-  color:hsl(245, 75%, 52%);
+  color: hsl(245, 75%, 52%);
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
 }
 
 /* main - payments button */
 #button-container {
   width: 100%;
+}
+
+#button-container button {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 14.555px 0;
+  margin-top: 20px;
+  background-color: hsla(228, 100%, 98%, 0.377);
+  color: hsl(223, 47%, 23%);
+}
+
+#button-container button:hover {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  box-shadow: 0px 5px 24px rgba(149, 157, 165, 1);  
 }
