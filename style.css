@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
 }
 
 body {
@@ -28,10 +30,10 @@ body {
   background-color: cadetblue;
 }
 
-.debug article {
+/* .debug article {
   height: 150px;
   background-color: cornflowerblue;
-}
+} */
 
 .debug section {
   height: 100px;
@@ -64,6 +66,18 @@ main {
 /* main - article */
 article {
   width: 100%;
+  text-align: center;
+}
+
+article h1 {
+  line-height: 57px;
+  font-size: 28px;
+  color: hsl(223, 47%, 23%);
+}
+
+article p {
+  margin-bottom: 20px;
+  color: rgb(131, 148, 161);
 }
 
 /* main - type of plan section */
