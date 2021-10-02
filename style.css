@@ -14,9 +14,14 @@ body {
   padding: 50px;
 }
 
-#full-container {
-  width: 34%;
-  margin: auto;
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left {
+  float: left;
 }
 
 /* debug section */
@@ -33,16 +38,22 @@ body {
 /* .debug article {
   height: 150px;
   background-color: cornflowerblue;
-} */
+}
 
 .debug section {
   height: 100px;
   background-color: darkslateblue;
-}
+} */
 
 .debug #button-container {
   height: 150px;
   background-color: deeppink;
+}
+
+/* body container */
+#full-container {
+  width: 34%;
+  margin: auto;
 }
 
 /* header - illustration */
@@ -77,12 +88,32 @@ article h1 {
 
 article p {
   margin-bottom: 20px;
-  color: rgb(131, 148, 161);
+  color: hsl(224, 23%, 55%);
 }
 
 /* main - type of plan section */
 section {
   width: 100%;
+  background-color: hsla(228, 100%, 98%, 0.377);
+  border-radius: 10px;
+}
+
+section img {
+  width: 50px;
+  margin: 25px;
+}
+
+#plan-box {
+  display: inline-block;
+  height: 100px;
+  padding: 28px 0;
+  color: hsl(223, 47%, 23%);
+}
+
+section a {
+  float: right;
+  padding: 39.555px 25px;
+  color:hsl(245, 75%, 52%);
 }
 
 /* main - payments button */
