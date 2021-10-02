@@ -9,5 +9,69 @@ body {
   width: 1440px;
   background-image: url(img/pattern-background-desktop.svg);
   background-repeat: no-repeat;
+  padding: 50px;
 }
 
+#full-container {
+  width: 34%;
+  margin: auto;
+}
+
+/* debug section */
+#container.debug {
+  height: 720px;
+  background-color: aquamarine;
+}
+
+.debug main {
+  height: 500px;
+  background-color: cadetblue;
+}
+
+.debug article {
+  height: 150px;
+  background-color: cornflowerblue;
+}
+
+.debug section {
+  height: 100px;
+  background-color: darkslateblue;
+}
+
+.debug #button-container {
+  height: 150px;
+  background-color: deeppink;
+}
+
+/* header - illustration */
+header {
+  width: 100%;
+  height: 220px;
+  background-image: url(img/illustration-hero.svg);
+  background-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* main */
+main {
+  width: 100%;
+  padding: 10%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* main - article */
+article {
+  width: 100%;
+}
+
+/* main - type of plan section */
+section {
+  width: 100%;
+}
+
+/* main - payments button */
+#button-container {
+  width: 100%;
+}
